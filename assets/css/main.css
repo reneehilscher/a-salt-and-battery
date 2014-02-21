@@ -1,0 +1,220 @@
+/* custom css*/
+
+@import url('normalize.css');
+@import url('reset.css');
+
+/*le fonts*/
+
+@font-face {
+  font-family: 'KronaOne';
+  src: url('../fonts/KronaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'DuruSans';
+  src: url('../fonts/DuruSans-Regular.ttf');
+}
+
+/*elements*/
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,a,blockquote{
+	font-family: 'KronaOne';
+}
+
+blockquote{
+font-size:24px;
+}
+
+#about-info blockquote>p {
+margin-bottom: 15px;
+}
+
+
+#quote{
+font-size: 18px;
+}
+
+h1,h2{
+	text-transform:uppercase;
+}
+
+h1{
+	font-size: 36px;
+}
+h2{
+	font-size: 24px;
+}
+
+body{
+	font-family: 'DuruSans';
+	font-size: 18px;
+}
+
+header{
+overflow:hidden;
+}
+
+#page-footer{
+	height:280px;
+	background-color:#252525;
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+overflow: hidden;
+max-width:960px;
+}
+
+#main-header{
+	background:rgba(147,46, 62,0.3);
+	background-size:100%;
+	height: 143px;
+}
+
+#main{
+	background-image: url('../images/header-bg.jpg');
+	background-repeat:no-repeat;
+	background-size: 100% 723px;
+	background-position: center top;
+	background-attachment: fixed;
+}
+#menu{
+	background-image: url('../images/menu-bg.jpg');
+	overflow:hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#menu-header{
+	margin-bottom:55px;
+	color:#f95971;
+
+}
+.sub-menu-header{
+	margin-bottom: 20px;
+	text-align: center;
+	color:#fff;
+}
+
+#menu ul>li{
+	text-align:center;
+	margin-bottom: 23px;
+}
+
+#mains{
+float: left;
+width: 37%;
+margin-right: 91px;
+}
+
+#sides{
+float: left;
+width: 16%;
+margin-right: 102px;
+}
+#drinks{
+float: left;
+width: 23%;
+}
+
+#find-us{
+	float:left;
+}
+
+#copyright{
+	float:right;
+}
+#logo{
+float: left;
+width: 260px;
+padding: 25px 0px;
+}
+#page-nav{
+	float:right;
+	height:66px;
+	margin: 60px 0px;
+}
+#page-nav a{
+	display:inline;
+	color:#fff;
+	padding-left:60px;
+	text-decoration: none;
+
+}
+
+#page-nav a:hover{
+	color:#5dcdb5;
+}
+
+.title{
+	text-align:center;
+}
+
+#about{
+	color:#5dcdb5;
+}
+#about-info{
+	float:left;
+	width: 67%;
+}
+
+#about-image{
+	float:right;
+	width:33%;
+}
+
+.section-container{
+	margin-top:100px;
+	margin-bottom: 87px;
+}
+
+.section-margin{
+	margin-top:100px;
+}
+
+#about-us{
+padding-bottom: 83px;
+
+}
+
+#about-us p{
+	margin-bottom: 35px;
+	line-height: 1.4;
+}
+
+#about{
+	margin-bottom: 50px;
+}
+
+#food{
+float: left;
+width: 510px;
+height: 492px;
+padding-left:20px;
+/*margin-left: 44px;*/
+}
+
+#tagline{
+	float: left;
+	margin-top: 242px;
+	padding-left: 40px;
+	
+}
+
+.tagline{
+	color:white;
+	font-size: 24px;
+		margin-bottom: 11px;
+		text-align: center;
+		text-transform:lowercase;
+		font-family: 'KronaOne';
+
+}
+#feature{
+	margin-top: 47px;
+}
