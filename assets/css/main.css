@@ -1,220 +1,294 @@
 /* custom css*/
-
-@import url('normalize.css');
-@import url('reset.css');
-
+@import url("normalize.css");
+@import url("reset.css");
 /*le fonts*/
-
 @font-face {
   font-family: 'KronaOne';
-  src: url('../fonts/KronaOne-Regular.ttf');
+  src: url("../fonts/KronaOne-Regular.ttf");
 }
 
 @font-face {
   font-family: 'DuruSans';
-  src: url('../fonts/DuruSans-Regular.ttf');
+  src: url("../fonts/DuruSans-Regular.ttf");
 }
 
 /*elements*/
+/* line 19, ../../sass/main.scss */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-h1,h2,a,blockquote{
-	font-family: 'KronaOne';
+/* line 23, ../../sass/main.scss */
+h1, h2, a, blockquote {
+  font-family: 'KronaOne';
 }
 
-blockquote{
-font-size:24px;
+/* line 27, ../../sass/main.scss */
+h1, h2 {
+  text-transform: uppercase;
 }
 
-#about-info blockquote>p {
-margin-bottom: 15px;
+/* line 31, ../../sass/main.scss */
+h1 {
+  font-size: 36px;
 }
 
-
-#quote{
-font-size: 18px;
+/* line 35, ../../sass/main.scss */
+h2 {
+  font-size: 24px;
 }
 
-h1,h2{
-	text-transform:uppercase;
+/* line 39, ../../sass/main.scss */
+body {
+  font-family: 'DuruSans';
+  font-size: 18px;
 }
 
-h1{
-	font-size: 36px;
-}
-h2{
-	font-size: 24px;
+/* line 44, ../../sass/main.scss */
+header {
+  overflow: hidden;
 }
 
-body{
-	font-family: 'DuruSans';
-	font-size: 18px;
+/* line 48, ../../sass/main.scss */
+blockquote {
+  font-size: 22px;
 }
 
-header{
-overflow:hidden;
+/*Layout*/
+/* line 55, ../../sass/main.scss */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 960px;
 }
 
-#page-footer{
-	height:280px;
-	background-color:#252525;
+/* line 62, ../../sass/main.scss */
+.title {
+  text-align: center;
 }
 
-.container{
-width: 80%;
-margin: 0 auto;
-overflow: hidden;
-max-width:960px;
+/* line 66, ../../sass/main.scss */
+.section-container {
+  margin-top: 100px;
+  margin-bottom: 87px;
 }
 
-#main-header{
-	background:rgba(147,46, 62,0.3);
-	background-size:100%;
-	height: 143px;
+/* line 71, ../../sass/main.scss */
+.section-margin {
+  margin-top: 100px;
 }
 
-#main{
-	background-image: url('../images/header-bg.jpg');
-	background-repeat:no-repeat;
-	background-size: 100% 723px;
-	background-position: center top;
-	background-attachment: fixed;
-}
-#menu{
-	background-image: url('../images/menu-bg.jpg');
-	overflow:hidden;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+/*Header*/
+/* line 77, ../../sass/main.scss */
+#logo {
+  float: left;
+  width: 260px;
+  padding: 25px 0px;
 }
 
-#menu-header{
-	margin-bottom:55px;
-	color:#f95971;
-
+/*Navigation*/
+/* line 83, ../../sass/main.scss */
+#page-nav {
+  float: right;
+  height: 66px;
+  margin: 60px 0px;
 }
-.sub-menu-header{
-	margin-bottom: 20px;
-	text-align: center;
-	color:#fff;
+/* line 88, ../../sass/main.scss */
+#page-nav a {
+  display: inline;
+  color: #fff;
+  padding-left: 60px;
+  text-decoration: none;
 }
-
-#menu ul>li{
-	text-align:center;
-	margin-bottom: 23px;
-}
-
-#mains{
-float: left;
-width: 37%;
-margin-right: 91px;
+/* line 93, ../../sass/main.scss */
+#page-nav a:hover {
+  color: #5dcdb5;
 }
 
-#sides{
-float: left;
-width: 16%;
-margin-right: 102px;
-}
-#drinks{
-float: left;
-width: 23%;
+/* line 99, ../../sass/main.scss */
+#main-header {
+  background: rgba(147, 46, 62, 0.3);
+  background-size: 100%;
+  height: 143px;
 }
 
-#find-us{
-	float:left;
+/* line 105, ../../sass/main.scss */
+#main {
+  background-image: url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 723px;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 722px;
 }
 
-#copyright{
-	float:right;
+/*main*/
+/* line 115, ../../sass/main.scss */
+#food {
+  float: left;
+  width: 60%;
+  padding-left: 12px;
+  /*margin-left: 44px;*/
 }
-#logo{
-float: left;
-width: 260px;
-padding: 25px 0px;
-}
-#page-nav{
-	float:right;
-	height:66px;
-	margin: 60px 0px;
-}
-#page-nav a{
-	display:inline;
-	color:#fff;
-	padding-left:60px;
-	text-decoration: none;
-
+/* line 121, ../../sass/main.scss */
+#food img {
+  width: 100%;
 }
 
-#page-nav a:hover{
-	color:#5dcdb5;
+/* line 126, ../../sass/main.scss */
+#tagline {
+  width: 40%;
+  float: left;
+  margin-top: 242px;
+  padding-left: 3px;
+}
+/* line 132, ../../sass/main.scss */
+#tagline .tagline {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 11px;
+  text-align: center;
+  text-transform: lowercase;
+  font-family: 'KronaOne';
 }
 
-.title{
-	text-align:center;
+/* line 142, ../../sass/main.scss */
+#feature {
+  margin-top: 33px;
 }
 
-#about{
-	color:#5dcdb5;
-}
-#about-info{
-	float:left;
-	width: 67%;
+/*about*/
+/* line 148, ../../sass/main.scss */
+#about-info blockquote > p {
+  margin-bottom: 15px;
 }
 
-#about-image{
-	float:right;
-	width:33%;
+/* line 152, ../../sass/main.scss */
+#quote {
+  font-size: 18px;
 }
 
-.section-container{
-	margin-top:100px;
-	margin-bottom: 87px;
+/* line 156, ../../sass/main.scss */
+#about {
+  color: #5dcdb5;
 }
 
-.section-margin{
-	margin-top:100px;
+/* line 159, ../../sass/main.scss */
+#about-info {
+  float: left;
+  width: 67%;
 }
 
-#about-us{
-padding-bottom: 83px;
-
+/* line 164, ../../sass/main.scss */
+#about-image {
+  float: right;
+  width: 33%;
+}
+/* line 168, ../../sass/main.scss */
+#about-image img {
+  width: 100%;
 }
 
-#about-us p{
-	margin-bottom: 35px;
-	line-height: 1.4;
+/* line 173, ../../sass/main.scss */
+#about-us {
+  padding-bottom: 83px;
+}
+/* line 176, ../../sass/main.scss */
+#about-us p {
+  margin-bottom: 35px;
+  line-height: 1.4;
 }
 
-#about{
-	margin-bottom: 50px;
+/* line 182, ../../sass/main.scss */
+#about {
+  margin-bottom: 50px;
 }
 
-#food{
-float: left;
-width: 510px;
-height: 492px;
-padding-left:20px;
-/*margin-left: 44px;*/
+/*menu*/
+/* line 189, ../../sass/main.scss */
+#menu {
+  background-image: url("../images/menu-bg.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-#tagline{
-	float: left;
-	margin-top: 242px;
-	padding-left: 40px;
-	
+/* line 197, ../../sass/main.scss */
+#menu-header {
+  margin-bottom: 55px;
+  color: #f95971;
 }
 
-.tagline{
-	color:white;
-	font-size: 24px;
-		margin-bottom: 11px;
-		text-align: center;
-		text-transform:lowercase;
-		font-family: 'KronaOne';
-
+/* line 202, ../../sass/main.scss */
+.sub-menu-header {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
 }
-#feature{
-	margin-top: 47px;
+
+/* line 208, ../../sass/main.scss */
+#menu ul > li {
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+/* line 213, ../../sass/main.scss */
+#mains {
+  float: left;
+  width: 37%;
+  margin-right: 53px;
+}
+
+/* line 219, ../../sass/main.scss */
+#sides {
+  float: left;
+  width: 16%;
+  margin-right: 102px;
+}
+
+/* line 224, ../../sass/main.scss */
+#drinks {
+  float: left;
+  width: 23%;
+}
+
+/*footer*/
+/* line 231, ../../sass/main.scss */
+#find-us {
+  float: left;
+}
+
+/* line 235, ../../sass/main.scss */
+#copyright {
+  float: right;
+  width: 33%;
+}
+
+/* line 240, ../../sass/main.scss */
+#page-footer {
+  height: 280px;
+  background-color: #252525;
+}
+/* line 244, ../../sass/main.scss */
+#page-footer * {
+  color: white;
+}
+/* line 248, ../../sass/main.scss */
+#page-footer .footer-container {
+  padding-top: 52px;
+}
+/* line 252, ../../sass/main.scss */
+#page-footer #find-us {
+  width: 20%;
+}
+/* line 255, ../../sass/main.scss */
+#page-footer #find-us .find-us {
+  margin-bottom: 16px;
+}
+/* line 259, ../../sass/main.scss */
+#page-footer #find-us #address {
+  line-height: 1.4;
+  margin-bottom: 36px;
 }
