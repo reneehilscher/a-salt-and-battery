@@ -13,49 +13,40 @@
 }
 
 /*elements*/
-/* line 19, ../../sass/main.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 23, ../../sass/main.scss */
 h1, h2, a, blockquote {
   font-family: 'KronaOne';
 }
 
-/* line 27, ../../sass/main.scss */
 h1, h2 {
   text-transform: uppercase;
 }
 
-/* line 31, ../../sass/main.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 35, ../../sass/main.scss */
 h2 {
   font-size: 24px;
 }
 
-/* line 39, ../../sass/main.scss */
 body {
   font-family: 'DuruSans';
   font-size: 18px;
 }
 
-/* line 44, ../../sass/main.scss */
 header {
   overflow: hidden;
 }
 
-/* line 48, ../../sass/main.scss */
 blockquote {
   font-size: 22px;
 }
 
 /*Layout*/
-/* line 55, ../../sass/main.scss */
 .container {
   width: 100%;
   margin: 0 auto;
@@ -63,24 +54,20 @@ blockquote {
   max-width: 960px;
 }
 
-/* line 62, ../../sass/main.scss */
 .title {
   text-align: center;
 }
 
-/* line 66, ../../sass/main.scss */
 .section-container {
   margin-top: 100px;
   margin-bottom: 87px;
 }
 
-/* line 71, ../../sass/main.scss */
 .section-margin {
   margin-top: 100px;
 }
 
 /*Header*/
-/* line 77, ../../sass/main.scss */
 #logo {
   float: left;
   width: 260px;
@@ -88,32 +75,27 @@ blockquote {
 }
 
 /*Navigation*/
-/* line 83, ../../sass/main.scss */
 #page-nav {
   float: right;
   height: 66px;
   margin: 60px 0px;
 }
-/* line 88, ../../sass/main.scss */
 #page-nav a {
   display: inline;
   color: #fff;
   padding-left: 60px;
   text-decoration: none;
 }
-/* line 93, ../../sass/main.scss */
 #page-nav a:hover {
   color: #5dcdb5;
 }
 
-/* line 99, ../../sass/main.scss */
 #main-header {
   background: rgba(147, 46, 62, 0.3);
   background-size: 100%;
   height: 143px;
 }
 
-/* line 105, ../../sass/main.scss */
 #main {
   background-image: url("../images/header-bg.jpg");
   background-repeat: repeat;
@@ -121,25 +103,21 @@ blockquote {
 }
 
 /*main*/
-/* line 114, ../../sass/main.scss */
 #food {
   float: left;
   width: 60%;
   padding-left: 12px;
 }
-/* line 118, ../../sass/main.scss */
 #food img {
   width: 100%;
 }
 
-/* line 123, ../../sass/main.scss */
 #tagline {
   width: 40%;
   float: left;
   margin-top: 242px;
   padding-left: 3px;
 }
-/* line 129, ../../sass/main.scss */
 #tagline .tagline {
   color: white;
   font-size: 18px;
@@ -149,60 +127,49 @@ blockquote {
   font-family: 'KronaOne';
 }
 
-/* line 139, ../../sass/main.scss */
 #feature {
   margin-top: 33px;
 }
 
 /*about*/
-/* line 145, ../../sass/main.scss */
 #about-info blockquote > p {
   margin-bottom: 15px;
 }
 
-/* line 149, ../../sass/main.scss */
 #quote {
   font-size: 18px;
 }
 
-/* line 153, ../../sass/main.scss */
 #about {
   color: #5dcdb5;
 }
 
-/* line 156, ../../sass/main.scss */
 #about-info {
   float: left;
   width: 67%;
 }
 
-/* line 161, ../../sass/main.scss */
 #about-image {
   float: right;
   width: 33%;
 }
-/* line 165, ../../sass/main.scss */
 #about-image img {
   width: 100%;
 }
 
-/* line 170, ../../sass/main.scss */
 #about-us {
   padding-bottom: 83px;
 }
-/* line 173, ../../sass/main.scss */
 #about-us p {
   margin-bottom: 35px;
   line-height: 1.4;
 }
 
-/* line 179, ../../sass/main.scss */
 #about {
   margin-bottom: 50px;
 }
 
 /*menu*/
-/* line 186, ../../sass/main.scss */
 #menu {
   background-image: url("../images/menu-bg.jpg");
   overflow: hidden;
@@ -211,79 +178,65 @@ blockquote {
   background-attachment: fixed;
 }
 
-/* line 194, ../../sass/main.scss */
 #menu-header {
   margin-bottom: 55px;
   color: #f95971;
 }
 
-/* line 199, ../../sass/main.scss */
 .sub-menu-header {
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
 }
 
-/* line 205, ../../sass/main.scss */
 #menu ul > li {
   text-align: center;
   margin-bottom: 23px;
 }
 
-/* line 210, ../../sass/main.scss */
 #mains {
   float: left;
   width: 37%;
   margin-right: 53px;
 }
 
-/* line 216, ../../sass/main.scss */
 #sides {
   float: left;
   width: 16%;
   margin-right: 102px;
 }
 
-/* line 221, ../../sass/main.scss */
 #drinks {
   float: left;
   width: 23%;
 }
 
 /*footer*/
-/* line 227, ../../sass/main.scss */
 #find-us {
   float: left;
 }
 
-/* line 231, ../../sass/main.scss */
 #copyright {
   float: right;
   width: 34%;
 }
 
-/* line 236, ../../sass/main.scss */
 #page-footer {
   height: 280px;
   background-color: #252525;
 }
-/* line 240, ../../sass/main.scss */
 #page-footer * {
   color: white;
 }
-/* line 244, ../../sass/main.scss */
 #page-footer .footer-container {
   padding-top: 52px;
 }
-/* line 248, ../../sass/main.scss */
 #page-footer #find-us {
   width: 20%;
 }
-/* line 251, ../../sass/main.scss */
 #page-footer #find-us .find-us {
   margin-bottom: 16px;
 }
-/* line 255, ../../sass/main.scss */
 #page-footer #find-us #address {
   line-height: 1.4;
   margin-bottom: 36px;
@@ -292,44 +245,37 @@ blockquote {
 /*media queries*/
 @media all and (max-width: 728px) and (min-width: 0px) {
   /* for tablets in portrait mode and desktops with less than 994px of horizontal browser width */
-  /* line 270, ../../sass/main.scss */
   #about-info {
     width: 100%;
     clear: both;
     padding: 15px;
   }
 
-  /* line 277, ../../sass/main.scss */
   #about-image {
     clear: both;
     width: 100%;
   }
 
-  /* line 283, ../../sass/main.scss */
   #page-nav {
     margin: 44px 5px;
     padding: 0px 5px;
   }
-  /* line 286, ../../sass/main.scss */
   #page-nav a {
     display: block;
     padding: 0px;
   }
 
-  /* line 292, ../../sass/main.scss */
   #mains, #sides, #drinks {
     clear: both;
     width: 100%;
     margin-bottom: 50px;
   }
 
-  /* line 298, ../../sass/main.scss */
   #food {
     width: 100%;
     clear: both;
   }
 
-  /* line 305, ../../sass/main.scss */
   #tagline {
     width: 100%;
     clear: both;
@@ -337,12 +283,10 @@ blockquote {
     margin-bottom: 25px;
   }
 
-  /* line 312, ../../sass/main.scss */
   blockquote {
     margin-bottom: 50px;
   }
 
-  /* line 317, ../../sass/main.scss */
   #page-footer #find-us {
     clear: both;
     width: 100%;
@@ -350,14 +294,12 @@ blockquote {
     margin-bottom: 50px;
   }
 
-  /* line 326, ../../sass/main.scss */
   #copyright {
     text-align: center;
     clear: both;
     width: 100%;
   }
 
-  /* line 336, ../../sass/main.scss */
   #main {
     background-image: url("../images/header-bg_1.jpg");
     background-attachment: fixed;

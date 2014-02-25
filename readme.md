@@ -1,3 +1,9 @@
 compass 
 
-Gem install compass
+```
+
+gem install compass
+
+compass watch
+
+```
